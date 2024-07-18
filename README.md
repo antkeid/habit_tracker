@@ -16,8 +16,13 @@ After installing Python,  proceed to the following steps to install the habit tr
 1. Copy the repository.
 2. Navigate to the project directory.
 3. Install the required dependencies using pip:
-   - pip install questionary (to use the CLI)
-   - pip install pytest (for testing functions)
+   ``` 
+   pip install questionary
+   ```
+   ```
+   pip install pytest 
+   ```
+
 4. Run the application.
 
 
@@ -34,8 +39,9 @@ After installing Python,  proceed to the following steps to install the habit tr
 #### Starting the Application
 To start tracking your habits, run the application by executing the following command in your terminal:
 
+```
 python main.py
-
+```
 
 ### Defining a Habit
 When prompted by the application, you will need to provide the following details for each habit:
@@ -53,7 +59,11 @@ Use the analysis features to review your habit data. The analytics.py module pro
 ### Testing
 To run tests and ensure the application is functioning correctly, execute the following command:
 
+```
 pytest
+```
+
 
 
 Happy habit tracking!
+
